@@ -14,3 +14,14 @@ def calc_product(numbers):
         else:
             prod *= number
     return prod
+
+def main():
+   numbersstr = input("Enter your numbers seperated by a comma:")
+   numbers = numbersstr.split(',')
+   intlist = [int(num) for num in numbers]
+
+   print("The product of the numbers is ",calc_product(intlist))
+   print("The sum of the numbers is ", calculate_sum(intlist))
+
+if __name__ == '__main__':
+    main()
