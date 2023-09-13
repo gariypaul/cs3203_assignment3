@@ -6,7 +6,7 @@ def calculate_sum(numbers):
     return sum
 
 def calc_product(numbers):
-    """Calculates the sum of the array """ 
+    """Calculates the product of the array """ 
     prod=0
     for number in numbers:
         if prod ==0:
