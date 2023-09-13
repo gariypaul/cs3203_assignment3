@@ -13,7 +13,13 @@ def calc_product(numbers):
             prod += number
         else:
             prod *= number
-    return prod
+    return prodg
+
+def reverse_list(numbers):
+    """Returns the reverse of the list"""
+    reversed = numbers[::-1]
+    return reversed
+
 
 def main():
    numbersstr = input("Enter your numbers seperated by a comma:")
