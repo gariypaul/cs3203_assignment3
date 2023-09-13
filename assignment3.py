@@ -28,6 +28,8 @@ def main():
 
    print("The product of the numbers is ",calc_product(intlist))
    print("The sum of the numbers is ", calculate_sum(intlist))
+   print("The reversed list is ",reverse_list(intlist))
+
 
 if __name__ == '__main__':
     main()
